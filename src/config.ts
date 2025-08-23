@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 		projectId: "", // Clarity 项目 ID
 	},
 	musicPlayer: {
-		enable: false, // 是否启用音乐播放器
+		enable: true, // 是否启用音乐播放器
 	},
 };
 
@@ -95,7 +95,7 @@ export const commentConfig = {
 	enable: true,
 	provider: "twikoo",
 	twikoo: {
-		envId: "https://api.pljzy.top", // 移除末尾的斜杠
+		envId: "https://heathertz.github.io/myblog2/", // 移除末尾的斜杠
 		region: "",
 		lang: "zh-CN",
 	},
