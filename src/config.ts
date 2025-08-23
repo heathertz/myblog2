@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "ZY知识库",
+	title: "唐知的博客",
 	subtitle: "欢迎来到我的博客",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 		projectId: "", // Clarity 项目 ID
 	},
 	musicPlayer: {
-		enable: true, // 是否启用音乐播放器
+		enable: false, // 是否启用音乐播放器
 	},
 };
 
@@ -67,7 +67,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "ZyPlj",
+	name: "tangzhi",
 	bio: "一个热爱编程的全栈开发者，热爱开源，热爱分享。",
 	links: [
 		{
