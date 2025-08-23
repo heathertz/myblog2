@@ -10,14 +10,15 @@ draft: false
 ---
 
 ## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+
+You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.
 
 ::github{repo="Fabrizz/MMM-OnSpotify"}
 
 Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
 
 ```markdown
-::github{repo="saicaca/fuwari"}
+::github{repo="heathertz/myblog2"}
 ```
 
 ## Admonitions
