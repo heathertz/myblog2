@@ -2,7 +2,8 @@
 
 This is the demo site for [唐知的博客](https://heathertz.github.io/myblog2).
 
-::github{repo="saicaca/fuwari"}
+::github{repo="heathertz/myblog2"}
+::github{repo="heathertz/myblog2"}
 
 > ### Sources of images used in this site
 >
