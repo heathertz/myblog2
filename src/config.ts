@@ -42,11 +42,11 @@ export const siteConfig: SiteConfig = {
 		},
 	],
 	clarity: {
-		enable: false, // 是否启用 Microsoft Clarity 分析
+		enable: true, // 是否启用 Microsoft Clarity 分析
 		projectId: "", // Clarity 项目 ID
 	},
 	musicPlayer: {
-		enable: true, // 是否启用音乐播放器
+		enable: false, // 是否启用音乐播放器
 	},
 };
 
@@ -57,30 +57,30 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		LinkPreset.Links,
 		// LinkPreset.Images, // 如果没有lsky.pro图床，则注释掉 https://docs.lsky.pro/archive/free/v2/
-		{
-			name: "开往🚆",
-			url: "https://www.travellings.cn/go.html", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
+		// {
+		// 	name: "开往🚆",
+		// 	url: "https://www.travellings.cn/go.html", // Internal links should not include the base path, as it is automatically added
+		// 	external: true, // Show an external link icon and will open in a new tab
+		// },
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "tangzhi",
-	bio: "一个热爱编程的全栈开发者，热爱开源，热爱分享。",
+	bio: "细雨湿衣穿市过，世人知我是何人。",
 	links: [
-		{
-			name: "博客园",
-			icon: "fa6-solid:blog", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://www.cnblogs.com/ZYPLJ",
-		},
+		// {
+		// 	name: "博客园",
+		// 	icon: "fa6-solid:blog", // Visit https://icones.js.org/ for icon codes
+		// 	// You will need to install the corresponding icon set if it's not already included
+		// 	// `pnpm add @iconify-json/<icon-set-name>`
+		// 	url: "https://www.cnblogs.com/ZYPLJ",
+		// },
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/ZyPLJ",
+			url: "https://github.com/heathertz",
 		},
 	],
 };
@@ -92,7 +92,7 @@ export const licenseConfig: LicenseConfig = {
 };
 
 export const commentConfig = {
-	enable: true,
+	enable: false,
 	provider: "twikoo",
 	twikoo: {
 		envId: "https://heathertz.github.io/myblog2/", // 移除末尾的斜杠
