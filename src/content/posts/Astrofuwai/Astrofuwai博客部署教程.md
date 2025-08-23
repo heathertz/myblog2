@@ -55,7 +55,7 @@ banner: {
 
 ### Microsoft Clarity 分析
 
-`Microsoft Clarity`是微软提供的用于网站流量分析的工具，如果用不上改成false即可，如果想用就需要去官网注册个账号：https://clarity.microsoft.com/
+`Microsoft Clarity`是微软提供的用于网站流量分析的工具，如果用不上改成false即可，如果想用就需要去官网注册个账号：<https://clarity.microsoft.com/>
 
 ```ts
 clarity: {
@@ -84,13 +84,13 @@ musicPlayer: {
 
 ```ts
 export const commentConfig = {
-	enable: true,
-	provider: "twikoo",
-	twikoo: {
-		envId: "https://api.pljzy.top", // 移除末尾的斜杠
-		region: "",
-		lang: "zh-CN",
-	},
+ enable: true,
+ provider: "twikoo",
+ twikoo: {
+  envId: "https://api.pljzy.top", // 移除末尾的斜杠
+  region: "",
+  lang: "zh-CN",
+ },
 };
 
 ```
@@ -127,9 +127,9 @@ pinned: false 文章是否固定、置顶
 ## 多提一嘴
 
 大部分博客的配置都是在`src/config.ts`文件中完成，文章底部显示的内容在`src/components/Footer.astro`组件中设置。
-部署博客的话可以参考：[基于Astro开发的Fuwari静态博客模版配置CICD流程 - ZY知识库](https://blog.pljzy.top/posts/astro/基于astro开发的fuwari静态博客模版配置cicd流程/)--https://blog.pljzy.top/posts/astro/  这篇文章
+部署博客的话可以参考：[基于Astro开发的Fuwari静态博客模版配置CICD流程 - ZY知识库](https://blog.pljzy.top/posts/astro/基于astro开发的fuwari静态博客模版配置cicd流程/)--<https://blog.pljzy.top/posts/astro/>  这篇文章
 
 ## 结语
 
 上述就是博主所集成的工具开关，如果还有问题可以在文章下留言。
-推荐先去了解原作者的模版：[fuwari](https://github.com/saicaca/fuwari)--https://github.com/saicaca/fuwari。 如果喜欢本博客集成功能可以参考代码添加进去。
+推荐先去了解原作者的模版：[fuwari](https://github.com/saicaca/fuwari)--<https://github.com/saicaca/fuwari。> 如果喜欢本博客集成功能可以参考代码添加进去。
