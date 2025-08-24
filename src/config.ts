@@ -10,7 +10,7 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "唐知的博客",
 	subtitle: "欢迎来到我的博客",
-	lang: "zh_CN",  'en' //, 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
+	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
@@ -42,7 +42,7 @@ export const siteConfig: SiteConfig = {
 		},
 	],
 	clarity: {
-		enable: true, // 是否启用 Microsoft Clarity 分析
+		enable: false, // 是否启用 Microsoft Clarity 分析
 		projectId: "", // Clarity 项目 ID
 	},
 	musicPlayer: {
