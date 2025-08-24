@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "欢迎来到我的博客",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
-		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 0, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
@@ -67,8 +67,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Tangzhi",
-	bio: "细雨湿衣穿市过 世人知我是何人",
+	name: "tangzhi",
+	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 	links: [
 		// {
 		// 	name: "博客园",
