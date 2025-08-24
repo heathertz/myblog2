@@ -100,7 +100,7 @@ export const commentConfig = {
 ```ts
 // https://twikoo.js.org/frontend.html CDN指南
 const script = document.createElement('script');
-script.src = 'https://registry.npmmirror.com/twikoo/1.6.44/files/dist/twikoo.min.js' 
+script.src = 'https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js' 
 ```
 
 ### 友链页面

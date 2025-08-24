@@ -95,7 +95,7 @@ export const commentConfig = {
 	enable: false,
 	provider: "twikoo",
 	twikoo: {
-		envId: "https://heathertz.github.io/myblog2/", // 移除末尾的斜杠
+		envId: "https://64.181.248.170:8080/", // 移除末尾的斜杠
 		region: "",
 		lang: "zh-CN",
 	},
