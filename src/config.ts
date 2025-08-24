@@ -95,7 +95,7 @@ export const commentConfig = {
 	enable: true,
 	provider: "twikoo",
 	twikoo: {
-		envId: "http://twikoo.tangzhi.fun", // 移除末尾的斜杠
+		envId: "https://twikoo.tangzhi.fun", // 移除末尾的斜杠
 		region: "",
 		lang: "zh-CN",
 	},
