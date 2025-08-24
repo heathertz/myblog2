@@ -92,7 +92,7 @@ export const licenseConfig: LicenseConfig = {
 };
 
 export const commentConfig = {
-	enable: false,
+	enable: true,
 	provider: "twikoo",
 	twikoo: {
 		envId: "https://64.181.248.170:8080/", // 移除末尾的斜杠
