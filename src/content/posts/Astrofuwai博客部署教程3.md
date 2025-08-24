@@ -1,5 +1,5 @@
 ---
-title: Astro/fuwai博客配置教程
+title: Astro/fuwai博客配置教程3
 published: 2025-08-24
 description: 新博自己的博客
 tags: [博客教程]
