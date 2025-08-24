@@ -1,5 +1,5 @@
 ---
-title: Astro/fuwai博客配置教程3
+title: Astro/test4
 published: 2025-08-24
 description: 新博自己的博客
 tags: [博客教程]
@@ -8,7 +8,7 @@ draft: false
 pinned: true
 ---
 
-# Astro/fuwai博客配置教程
+# Astro/test4
 
 ## 前言
 

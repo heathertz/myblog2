@@ -1,6 +1,6 @@
 ---
-title: Astro/test2
-published: 2025-08-22
+title: Astro/test1
+published: 2025-08-21
 description: 新博自己的博客
 tags: [博客教程]
 category: 教程
@@ -8,7 +8,7 @@ draft: false
 pinned: true
 ---
 
-# Astro/test2
+# Astro/test1
 
 ## 前言
 
