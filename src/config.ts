@@ -42,8 +42,8 @@ export const siteConfig: SiteConfig = {
 		},
 	],
 	clarity: {
-		enable: false, // 是否启用 Microsoft Clarity 分析
-		projectId: "", // Clarity 项目 ID
+		enable: true, // 是否启用 Microsoft Clarity 分析
+		projectId: "t07crlkuba", // Clarity 项目 ID
 	},
 	musicPlayer: {
 		enable: false, // 是否启用音乐播放器
