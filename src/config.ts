@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/banner0.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		// 如果要使用MP4视频，可以这样配置：
 		// src: "/videos/banner-video.mp4", // 视频文件放在 public/videos/ 目录下
 		// type: "video", // 设置为视频类型
@@ -66,7 +66,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/logo.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "tangzhi",
 	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 	links: [
