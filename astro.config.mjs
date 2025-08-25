@@ -27,7 +27,8 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 // https://astro.build/config
 export default defineConfig({
 	site: "https://heathertz.github.io",
-	base: "/myblog2/",
+	// base: "/myblog2",
+	base: "/",
 	trailingSlash: "ignore",
 	integrations: [
 		tailwind({
