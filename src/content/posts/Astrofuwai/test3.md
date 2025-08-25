@@ -2,8 +2,8 @@
 title: Astro/test3
 published: 2025-08-23
 description: 新建自己的博客
-tags: [博客教程]
-category: 教程
+tags: [test]
+category: test
 draft: false 
 pinned: false
 ---
